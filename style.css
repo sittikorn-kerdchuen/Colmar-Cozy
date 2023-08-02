@@ -257,7 +257,7 @@ header h2{
 }
 
 .card:hover{
-    background-color: #f1dda6 ;
+    background-color: #fffbef ;
     border-radius: 0 0 10px 10px;
     overflow: hidden;
     transition: 300ms; 
