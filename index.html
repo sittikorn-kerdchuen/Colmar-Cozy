@@ -22,6 +22,7 @@
                 <a href="#">Online</a>
                 <a href="#">For companies</a>
                 <a href="#">Sign in</a>
+                <button onclick="toggleDarkMode()" class="change"><box-icon name='moon' class="icon"></box-icon></button>
 
             </div>
         </nav>
@@ -40,8 +41,12 @@
                 <div>
                     <a href="#"><img src="/colmar/images/ic-login.svg" alt=""></a>
                 </div>
+                <div>
+                    <button onclick="toggleDarkMode()" class="change"><box-icon name='moon' class="icon"></box-icon></button>
+                </div>
             </div>
         </nav>
+
         <!-- Start section : 1  -->
 
         <section class="first">
@@ -170,7 +175,7 @@
 
         <!-- Start section : 4 -->
 
-        <section>
+        <section class="forth">
             <header>
                 <h2>Thesis exhibit</h2>
             </header>
@@ -221,9 +226,8 @@
         </footer>
     </main>
 
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="darktheme.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="dark.js"></script>
 </body>
 
 </html>
